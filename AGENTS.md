@@ -20,6 +20,17 @@ Default canonical triage label vocabulary (label string = role name). See `docs/
 
 Single-context layout (`GLOSSARY.md` at repo root, ADRs in `docs/adr/`). See `docs/agents/domain.md`.
 
+## Creating a new project
+
+1. Create the repo on GitHub under `Mende` with the appropriate visibility, then clone it into `~/Repos/<name>` (e.g. `gh repo create Mende/<name> --private --clone`, run from `~/Repos`). Work from that checkout, not from `dev-home`.
+2. Add the repo to the **Other repos** table below (local path, clone command, visibility, one-line description). That table is how agents resolve repo names.
+3. From the new repo, run `/setup-matt-pocock-skills` and answer:
+   - Issue tracker: **GitHub** — issues in GitHub Issues via the `gh` CLI.
+   - Triage labels: **defaults** — `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`.
+   - Domain docs: **single-context** (`GLOSSARY.md` + `docs/adr/`).
+   - Agent instructions file: `AGENTS.md` (matching the other repos).
+4. Commit and push the generated config so every project starts with the same agent setup.
+
 ## Other repos
 
 Base directory: `~/Repos` (siblings next to `dev-home`, e.g. `../<repo>` from this repo).
