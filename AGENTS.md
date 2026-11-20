@@ -43,3 +43,4 @@ Base directory: `~/Repos` (siblings next to `dev-home`, e.g. `../<repo>` from th
 | [Mende/fin](https://github.com/Mende/fin) | `../fin` | `git@github.com:Mende/fin.git` | private | — |
 | [Mende/dnd-agents](https://github.com/Mende/dnd-agents) | `../dnd-agents` | `git@github.com:Mende/dnd-agents.git` | public | — |
 | [Mende/Mende](https://github.com/Mende/Mende) | `../Mende` | `git@github.com:Mende/Mende.git` | public | Config files for my GitHub profile. |
+| [Mende/menu-minder](https://github.com/Mende/menu-minder) | `../menu-minder` | `git@github.com:Mende/menu-minder.git` | private | — |
